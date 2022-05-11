@@ -9,9 +9,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
 
-# login credentials 
-email_address = "musiyarirajoshua@gmail.com"
-psswd = "BeezApple13!!"
+# NEVER STORE YOUR LOGIN CREDENTIALS IN PLAIN TEXT
+email_address = ""
+psswd = ""
 
 options = Options()
 options.add_argument("start-maximized")
