@@ -29,7 +29,7 @@ class SCRAPE:
         """Setup for the chrome web driver."""
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
     
-
+ 
     def site_navigation(self):
         """Navigates to the webpage where friend requests are waiting approval"""
         driver = self.driver
