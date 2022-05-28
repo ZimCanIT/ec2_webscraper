@@ -17,7 +17,7 @@ psswd = param_store.get_password()
 
 # chrome driver options 
 options = Options()
-# options.headless = True # allows script to be run without a GUI on a server
+options.headless = True # allows script to be run without a GUI on a server
 
 class SCRAPE:
 
