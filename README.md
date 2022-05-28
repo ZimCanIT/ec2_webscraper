@@ -9,8 +9,8 @@ Launch AWS EC2 instance with an SSH key and aupload `userdata.sh` file from with
 Script will launch with code running in the background and makes an api call
 
 Push credentials to AWS parameter store
-`aws ssm put-parameter --name "ppwpuname" --type "String" --value [youSecretUsername]`
-`aws ssm put-parameter --name "ppwpwd" --type "String" --value [yourSecretPassword]`
+*`aws ssm put-parameter --name "ppwpuname" --type "String" --value [youSecretUsername]`
+*`aws ssm put-parameter --name "ppwpwd" --type "String" --value [yourSecretPassword]`
 
 Python file `param_store.py` uses boto3 module to make api calls from paramater store and parses in credentials to the web scrapiong script: `app.py`
 
