@@ -3,12 +3,13 @@ A web scraping application that runs on an EC2 machine to iteratively delete fri
 Social networking site has a limit of 900 requests. Script iteratively deletes requests. 
 
 
-# Usage
+### Usage
 Launch AWS EC2 instance with an SSH key and aupload `userdata.sh` file from within this repo into the userdata field
 
 Script will launch with code running in the background and makes an api call
 
 Push credentials to AWS parameter store
+
 *`aws ssm put-parameter --name "ppwpuname" --type "String" --value [youSecretUsername]`
 *`aws ssm put-parameter --name "ppwpwd" --type "String" --value [yourSecretPassword]`
 
