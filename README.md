@@ -17,10 +17,6 @@ Social networking site has a limit of 900 requests. Script iteratively deletes r
 
 EC2 instance hosting code require an IAM profile in order to have access to SSM.
 
-### Video of how the web scraper works locally:
-
-
-
 ### Additional information 
 
 * AWS guide for creating parameters on AWS SSM parameter store via the AWS CLI: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ssm/put-parameter.html
