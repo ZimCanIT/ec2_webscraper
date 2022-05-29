@@ -21,7 +21,7 @@ Video of how web scraper works locally:
 
 ### Additional information 
 
-* # AWS guide for creating parameters on AWS SSM parameter store via the AWS CLI: 
+* AWS guide for creating parameters on AWS SSM parameter store via the AWS CLI: 
 
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ssm/put-parameter.html
 
