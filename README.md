@@ -18,3 +18,10 @@ Python file `param_store.py` uses boto3 module to make api calls from paramater 
 EC2 instance hosting code require an IAM profile in order to have access to SSM.
 
 Video of how web scraper works locally:
+
+### Additional information 
+* # AWS guide for creating parameters on parameter store via te AWS CLI: 
+
+https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ssm/put-parameter.html
+
+
