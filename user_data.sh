@@ -1,4 +1,4 @@
-# updgrading yum packages and cloning code repo
+# updgrading yum packages and installing git
 sudo yum update -y 
 sudo yum install git -y
 
